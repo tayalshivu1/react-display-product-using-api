@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  background-color: bisque;
+  width: 300px;
+  padding: 10px;
+}
+
+.image {
+  width: auto;
+  max-width: 300px;
+  max-height: 160px;
+  min-height: 160px;
+}
+
+.price {
+  color: darkgreen;
+}
+
+.description {
+  margin: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.pd-wrapper {
+  background-color: lightskyblue;
+  padding: 20px;
+}
+
+.pd-image {
+  width: 80%;
+}
+
+.view-product {
+  min-width: 150px;
+  min-height: 30px;
+  background-color: blue;
+  color: white;
+}
